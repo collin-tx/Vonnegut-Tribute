@@ -1,1 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Bungee+Outline|Comfortaa&display=swap');
+
+* {
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+#header {
+    text-align: center;
+}
+
+#title {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 4rem;
+}
+
+#tagline {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+}
+
+#main-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#img-caption {
+    text-align: center;
+    
+}
+
+#timeline {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 20%;
+    padding: 2rem;
+}
+
+#timeline ul li {
+    padding: 0.6rem;
+}
+
+#final {
+    text-align: center;
+}
