@@ -58,3 +58,10 @@
 #final {
     text-align: center;
 }
+
+@media (max-width: 960px){
+    #timeline {
+        margin: 1rem 5%;
+        padding: 1rem;
+    }
+}
